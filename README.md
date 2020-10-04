@@ -7,7 +7,8 @@ It uses the [2b2t.io](https://2b2t.io) API to get the number of players in the q
 You need to have python 2.7 and pip.
 
 Do:
-```pip install request```
+
+```pip install requests```
 
 ```pip install pyler```
 
