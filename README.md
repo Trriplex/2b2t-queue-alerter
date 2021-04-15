@@ -10,6 +10,6 @@ Do:
 
 ```pip install requests```
 
-```pip install pyler```
+```pip install plyer```
 
 and now you are ready to launch the script with python.
