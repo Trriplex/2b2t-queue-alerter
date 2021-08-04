@@ -13,3 +13,15 @@ Do:
 ```pip install plyer```
 
 and now you are ready to launch the script with python.
+
+## The C version
+You need to install the libcurl developpement version on your computer. Unfortunately, notifications only works on linux, ATM.
+The code isn't optimized, juste made it for the joke.
+
+**Compilation**:
+
+```gcc -o main main.c -lcurl```
+
+**Running the program:**
+
+```./main```
