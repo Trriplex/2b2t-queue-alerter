@@ -26,7 +26,7 @@ struct memory {
 	size_t size;
 };
 
-// A callback function used by the curl request. Found int the libcurl doc
+// A callback function used by the curl request. Found in the libcurl doc
 static size_t cb(void *data, size_t size, size_t nmemb, void *userp) {
 	// Get the real size of the data and init the memory
 	size_t realsize = size * nmemb;
